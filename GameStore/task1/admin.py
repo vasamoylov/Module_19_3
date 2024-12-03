@@ -15,4 +15,3 @@ class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'author', 'create_date')
     list_filter = ('title', 'create_date')
     search_fields = ('title', 'create_date')
-    
